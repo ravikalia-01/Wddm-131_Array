@@ -8,6 +8,7 @@ import AgeStatus from './TernaryOperatorEx'
 import ReactEvent from './EventRectEx'
 import DisplayListstu from './StudentRec'
 import DisplayListstu2 from './StudentRd'
+import DisplayListstu3 from './FnStd'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -40,6 +41,7 @@ function App() {
       <ReactEvent />
       <DisplayListstu />
       <DisplayListstu2 />
+      <DisplayListstu3 />
     </>
   )
 }
